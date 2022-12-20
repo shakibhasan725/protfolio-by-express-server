@@ -1,0 +1,18 @@
+ <!--===== WORK =====-->
+ <section class="work section" id="work">
+    <h2 class="section-title">Friends</h2>
+
+    <div class="work__container bd-grid">
+        <% recentwork.forEach(element => { %>
+            <div class="work__img">
+                <img src="<%= element.photo %> " alt="">
+                <h4><%= element.id %> </h4>
+                <h6> <%= element.name  %> </h6>
+            </div>
+        <% }) %>
+        
+       
+        
+        
+    </div>
+</section>
